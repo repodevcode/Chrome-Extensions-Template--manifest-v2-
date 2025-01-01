@@ -11,8 +11,8 @@
   "content_scripts": [
     {
       "matches": ["WHEN JAVASCRIPT/CSS WORKS, ON WHICH PAGES? CAN BE <all_urls> WHICH MEANS IT WORKS FOR ALL URLS"],
-      "js": ["PATH TO JAVASCRIPT FILE (OPTIONAL IF INCLUDE CSS)"],
-      "css": ["PATH TO CSS FILE (OPTIONAL IF INCLUDE JS)"]
+      "js": ["PATH TO JAVASCRIPT FILE (OPTIONAL IF INCLUDE CSS) [ex: script.js]"],
+      "css": ["PATH TO CSS FILE (OPTIONAL IF INCLUDE JS) [ex: style.css]"]
     }
 
   ]
