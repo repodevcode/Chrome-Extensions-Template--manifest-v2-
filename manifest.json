@@ -4,7 +4,7 @@
   "description": "DESCRIPTION",
   "version": "VERSION (CAN MAKE UP)",
   "browser_action": {
-    "default_icon": "PATH TO LOGO",
+    "default_icon": "PATH TO LOGO [ex: logo.png]",
     "default_popup": "PATH TO POPUP FOR EXTENSION (OPTIONAL) [ex: popup.html]"
   },
   "permissions" : ["PERMISSIONS LISTED USING COMMAS (OPTIONAL) [more details in PDF file]"],
