@@ -5,9 +5,9 @@
   "version": "VERSION (CAN MAKE UP)",
   "browser_action": {
     "default_icon": "PATH TO LOGO",
-    "default_popup": "PATH TO POPUP FOR EXTENSION (OPTIONAL)"
+    "default_popup": "PATH TO POPUP FOR EXTENSION (OPTIONAL) [ex: popup.html]"
   },
-  "permissions" : ["PERMISSIONS LISTED USING COMMAS (OPTIONAL)"],
+  "permissions" : ["PERMISSIONS LISTED USING COMMAS (OPTIONAL) [more details in PDF file]"],
   "content_scripts": [
     {
       "matches": ["WHEN JAVASCRIPT/CSS WORKS, ON WHICH PAGES? CAN BE <all_urls> WHICH MEANS IT WORKS FOR ALL URLS"],
