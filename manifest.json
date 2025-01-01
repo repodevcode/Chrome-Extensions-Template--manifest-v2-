@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "NAME OF EXTENSION",
+  "description": "DESCRIPTION",
+  "version": "VERSION (CAN MAKE UP)",
+  "browser_action": {
+    "default_icon": "PATH TO LOGO",
+    "default_popup": "PATH TO POPUP FOR EXTENSION (OPTIONAL)"
+  },
+  "permissions" : ["PERMISSIONS LISTED USING COMMAS (OPTIONAL)"],
+  "content_scripts": [
+    {
+      "matches": ["WHEN JAVASCRIPT/CSS WORKS, ON WHICH PAGES? CAN BE <all_urls> WHICH MEANS IT WORKS FOR ALL URLS"],
+      "js": ["PATH TO JAVASCRIPT FILE (OPTIONAL IF INCLUDE CSS)"],
+      "css": ["PATH TO CSS FILE (OPTIONAL IF INCLUDE JS)"]
+    }
+
+  ]
+}
